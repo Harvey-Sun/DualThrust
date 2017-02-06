@@ -91,7 +91,7 @@ def strategy(sdk):
         position_dict = dict([[i.code, i.optPosition] for i in positions])
         stock_with_position = [i.code for i in positions]
         # number = len(stock_with_position)
-        # 找到中证500外的有仓位的股票
+        #  找到中证500外的有仓位的股票
         zz500 = sdk.getGlobal('zz500')
         out_zz500_stock = list(set(stock_with_position) - set(zz500))
         out_num = len(out_zz500_stock)
