@@ -241,7 +241,7 @@ config = {
     'feeLimit': 5,
     'cycle': 1,
     'dealByVolume': True,
-    'allowfortodayfactor': ['LZ_GPA_INDEX_CSI500MEMBER', 'LZ_GPA_SLCIND_STOP_FLAG']
+    'allowForTodayFactors': ['LZ_GPA_INDEX_CSI500MEMBER', 'LZ_GPA_SLCIND_STOP_FLAG']
 }
 
 if __name__ == "__main__":
